@@ -1,0 +1,11 @@
+package com.knoldus.InterfaceSeggration
+
+object CallingRect {
+  def main(args: Array[String]): Unit = {
+    val rect = new Rectangle(x = 0, y = 3, width = 3, height = 2)
+    rect.description
+    val sqr=new Square( width = 5)
+
+  }
+
+}
